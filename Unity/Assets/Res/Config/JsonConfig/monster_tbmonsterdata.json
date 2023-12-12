@@ -1,0 +1,23 @@
+[
+  {
+    "code": 10001,
+    "level": 1,
+    "hp": 50,
+    "base_power": 3,
+    "base_move_speed": 1
+  },
+  {
+    "code": 10001,
+    "level": 2,
+    "hp": 200,
+    "base_power": 4,
+    "base_move_speed": 1
+  },
+  {
+    "code": 10001,
+    "level": 3,
+    "hp": 300,
+    "base_power": 5,
+    "base_move_speed": 1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1001,
+    "name": "小明",
+    "type_code": "Player1"
+  },
+  {
+    "id": 1002,
+    "name": "小红",
+    "type_code": "Player1"
+  },
+  {
+    "id": 1003,
+    "name": "小白",
+    "type_code": "Player1"
+  }
+]
