@@ -90,12 +90,7 @@ Unity/Assets/StarkProxyData.meta
 .vscode/settings.json
 Unity/.svn
 
-Unity/Assets/Plugins/Animancer
-Unity/Assets/Plugins/Animancer.meta
-Unity/Assets/Plugins/Sirenix
-Unity/Assets/Plugins/Sirenix.meta
-Unity/Assets/Plugins/SLATE Cinematic Sequencer
-Unity/Assets/Plugins/SLATE Cinematic Sequencer.meta
+
 Unity/Assets/Plugins/Editor/CompilationVisualizer
 Unity/Assets/Plugins/Editor/CompilationVisualizer.meta
 Unity/Assets/Plugins/Editor/EditorIterationProfiler
