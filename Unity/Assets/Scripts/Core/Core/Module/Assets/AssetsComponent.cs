@@ -130,7 +130,7 @@ namespace Model
                 if (_abSettings.EncryptType == EncryptType.Empty)
                 {
                     services = new EmptyDecrypt();
-                }
+                } 
                 else if (_abSettings.EncryptType == EncryptType.Offset)
                 {
                     services = new OffsetDecrypt();

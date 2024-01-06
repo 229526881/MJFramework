@@ -22,23 +22,23 @@ MonoBehaviour:
     Path: Assets/Res/Text/Hotfix.pdb.bytes
     Type: 0
   - TypeName: UnityEngine.TextAsset
-    Obj: {fileID: 4900000, guid: 843c114fe38f0444fbb70114c0a86310, type: 3}
+    Obj: {fileID: 4900000, guid: 73cb38728d011764cb795737527da677, type: 3}
     Path: Assets/Res/Config/JsonConfig/const_tbgameconst.json
     Type: 0
   - TypeName: UnityEngine.TextAsset
-    Obj: {fileID: 4900000, guid: 8e7469ec73e226b49811983471157be0, type: 3}
+    Obj: {fileID: 4900000, guid: a04f13fb938a60a479eb84dc7edb25cd, type: 3}
     Path: Assets/Res/Config/JsonConfig/monster_tbmonster.json
     Type: 0
   - TypeName: UnityEngine.TextAsset
-    Obj: {fileID: 4900000, guid: 7389d85ae70836c4990bd67c81415511, type: 3}
+    Obj: {fileID: 4900000, guid: 344ae98400d6fc144a9380253a789910, type: 3}
     Path: Assets/Res/Config/JsonConfig/monster_tbmonsterdata.json
     Type: 0
   - TypeName: UnityEngine.TextAsset
-    Obj: {fileID: 4900000, guid: 28d57fbc6a8974641aa22647c2d8506b, type: 3}
+    Obj: {fileID: 4900000, guid: 7a7cd509e26ef6f40af2a401fdbd67d1, type: 3}
     Path: Assets/Res/Config/JsonConfig/role_tbrole.json
     Type: 0
   - TypeName: UnityEngine.TextAsset
-    Obj: {fileID: 4900000, guid: b9752caf732a62e40a186a05237b4a84, type: 3}
+    Obj: {fileID: 4900000, guid: 3be789433dc1abc49a8871dc4528d25f, type: 3}
     Path: Assets/Res/Config/JsonConfig/role_tbroledata.json
     Type: 0
   - TypeName: Model.AssetReferenceSettings

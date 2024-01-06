@@ -767,6 +767,10 @@
       <Project>{2b4d6b47-044b-9555-830b-74e745b4af09}</Project>
       <Name>com.Brogrammist.JSAM.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Slate.Player.csproj">
+      <Project>{967b86c0-5bbc-c425-f9e0-d52690e60682}</Project>
+      <Name>Slate.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{67655f18-9b1c-34a3-64d0-0f7247c6b418}</Project>
       <Name>UnityEngine.UI.Player</Name>

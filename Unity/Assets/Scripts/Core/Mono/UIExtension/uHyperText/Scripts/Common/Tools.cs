@@ -16,7 +16,7 @@ namespace WXB
 
         void SubRef();
 
-        // ÇëÇó×ÊÔ´
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´
         Sprite Get();
     }
 
@@ -40,7 +40,7 @@ namespace WXB
             get { return s_VertexHelper; }
         }
 
-        // ×óÏÂ½Ç(YÖá³¯ÏÂ)×ø±êÏµ×ª»»Îª×óÉÏ½Ç(YÖá³¯ÉÏ)×ø±êÏµ
+        // ï¿½ï¿½ï¿½Â½ï¿½(Yï¿½á³¯ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½Ïµ×ªï¿½ï¿½Îªï¿½ï¿½ï¿½Ï½ï¿½(Yï¿½á³¯ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½Ïµ
         public static void LB2LT(ref Vector2 pos, float height)
         {
             pos.y = height - pos.y;
@@ -59,7 +59,7 @@ namespace WXB
                 : UnityEditor.AssetDatabase.LoadAssetAtPath<Font>(s_fontPathDic[name]);
 #else
             Font f = Model.Game.Instance.Scene.GetComponent<Model.AssetsComponent>().LoadSync<Font>(s_fontPathDic[name]);
-#endif
+#endif  
 
             if (f == null)
                 return DefaultFont;
@@ -77,10 +77,10 @@ namespace WXB
             return DefaultFont;
         }
 
-        //// µÃµ½¾«ÁéµÄ½Ó¿Ú
+        //// ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½Ä½Ó¿ï¿½
         //public static System.Func<Sprite> s_get_sprite = null;
 
-        //// µÃµ½×ÖÌåµÄ½Ó¿Ú
+        //// ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½Ä½Ó¿ï¿½
         //public static System.Func<string, Font> s_get_font = null;
 
         static public ISprite GetSprite(string name)
@@ -167,7 +167,7 @@ namespace WXB
 
         public static void AddLine(VertexHelper vh, Vector2 leftPos, Vector2 uv, float width, float height, Color color)
         {
-            // ÓÐÏÂ»®Ïß
+            // ï¿½ï¿½ï¿½Â»ï¿½ï¿½ï¿½
             Vector2 leftTop = new Vector2(leftPos.x, leftPos.y);
 
             int count = vh.currentVertCount;
@@ -377,7 +377,7 @@ namespace WXB
             }
             else
             {
-                // c,ºóÃæ½ÓµÄ×Ö·û¶¨ÒåÎª×ÖÌåµÄÑÕÉ«£¬Èç¹ûºóÃæ×Ö·û²»ÊÇÊý×Ö£¬ÔòÑÕÉ«»Ö¸´ÎªÄ¬ÈÏµÄÑÕÉ«,×î¶àÁù¸öÊý×Ö
+                // c,ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½Ö¸ï¿½ÎªÄ¬ï¿½Ïµï¿½ï¿½ï¿½É«,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 int start_color = ++startpos;
                 int color_lenght = 0;
                 int lenght = text.Length;

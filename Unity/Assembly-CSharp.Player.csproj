@@ -638,10 +638,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
-      <Project>{df8be61d-c974-b312-2686-4d004c5af870}</Project>
-      <Name>Assembly-CSharp-firstpass.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="starkmini.Examples.Player.csproj">
       <Project>{ba2f4d4c-0659-2fd4-640c-2a5b0f5f72c7}</Project>
       <Name>starkmini.Examples.Player</Name>
@@ -721,6 +717,10 @@
     <ProjectReference Include="UniTask.Addressables.Player.csproj">
       <Project>{a6e73dea-16cc-29d6-5869-c4c731009ecf}</Project>
       <Name>UniTask.Addressables.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Slate.Player.csproj">
+      <Project>{967b86c0-5bbc-c425-f9e0-d52690e60682}</Project>
+      <Name>Slate.Player</Name>
     </ProjectReference>
     <ProjectReference Include="SuperTiled2Unity.Player.csproj">
       <Project>{9c74c861-9759-621d-a131-00adbe6b821b}</Project>

@@ -41,7 +41,7 @@ namespace Model
             ObjectHelper.CreateComponent<AudioComponent>(scene, false);
 
             ObjectHelper.CreateComponent<UIRootComponent>(ObjectHelper.CreateEntity<Entity>(scene, null, ConstData.UI_ROOT, true), false);
-
+ 
             LoadSceneData data = new LoadSceneData() { ScenePath = ConstData.MAIN_SCENE, AssetPaths = LoadInfo.InfosMap[1], Call = OnGameLoadComplete };
             UIHelper.OpenUIView<LoadingViewComponent, LoadUseType, LoadSceneData>(LoadUseType.Hot, data);
         }
