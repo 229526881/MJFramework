@@ -120,7 +120,7 @@ namespace Model
         {
             Canvas = this.Entity.Transform.GetComponent<Canvas>();
 
-            if (Canvas == null)
+            if (Canvas == null) 
             {
                 Canvas = this.Entity.GameObject.AddComponent<Canvas>();
             }
@@ -175,7 +175,7 @@ namespace Model
                 while (data.right != 0)
                 {
                     data = _childCanvasDic.GetElement(data.right);
-                    data.element.sortingLayerID = sortingLayerID;
+                    data.element.sortingLayerID = sortingLayerID; //把所有的子页面的sortingLayerID改为父canvas的sortingLayerID
                 }
             }
         }

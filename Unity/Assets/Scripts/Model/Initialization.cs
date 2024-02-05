@@ -73,7 +73,7 @@ namespace Model
             Rigidbody2DComponent.PM2D_NoFriction = await assetsComponent.LoadAsync<PhysicsMaterial2D>(ConstData.No_Friction);
             NLog.Log.Debug("-----这里有一段播放背景音乐播放测试");
 
-            //UniTask.Void(async () => await Game.Instance.Scene.GetComponent<AudioComponent>().PlayMusic(100002));
+            UniTask.Void(async () => await Game.Instance.Scene.GetComponent<AudioComponent>().PlayMusic(100002));
 
             //WeChatWASM.WX.GetPrivacySetting(new WeChatWASM.GetPrivacySettingOption()
             //{

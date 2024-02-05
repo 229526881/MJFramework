@@ -81,7 +81,7 @@ namespace NPBehave
                 var currentChild = Children[i];
 
                 if (currentChild == abortForChild)
-                {
+                { 
                     found = true;
                 }
                 else if (!found)

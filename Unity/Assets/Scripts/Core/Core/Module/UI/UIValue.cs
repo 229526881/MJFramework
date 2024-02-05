@@ -7,7 +7,7 @@ namespace Model
     public enum UIViewType
     {
         None,
-        Normal,
+        Normal,  //会不会只会存在一个的界面
         Pop,
         Tips
     }

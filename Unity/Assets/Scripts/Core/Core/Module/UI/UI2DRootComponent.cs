@@ -73,9 +73,8 @@ namespace Model
             {
                 if (_layerStack.Count > 0)
                 {
-                    _components[_layerStack.Peek()].SetUIMask(true);
+                    _components[_layerStack.Peek()].SetUIMask(true); //应该是隐藏原来的mask 改为当前的下层
                 }
-
                 _layerStack.Push(layer);
             }
 

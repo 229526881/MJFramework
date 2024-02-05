@@ -177,7 +177,7 @@ namespace Model
 
         public UIBaseComponent OpenUIView(Type type, UIBaseDataAttribute attr, bool isCloseBack)
         {
-            CloseUIView(type, attr, isCloseBack, true);
+            CloseUIView(type, attr, isCloseBack, true); 
 
             var view = CreateView(type, attr);
 
@@ -187,7 +187,7 @@ namespace Model
             }
             else
             {
-                view.SetMaskMode((UIMaskMode)1);
+                view.SetMaskMode((UIMaskMode)1); 
             }
 
             PushView(type);
@@ -231,7 +231,7 @@ namespace Model
         {
             var uiViewType = (UIViewType)attr.UIViewType;
 
-            if (_uiStack.Contains(type))
+            if (_uiStack.Contains(type))  
             {
                 if (uiViewType == UIViewType.Normal)
                 {
@@ -267,6 +267,7 @@ namespace Model
                                     }
                                     else if (isOpen && component.IsEnable)
                                     {
+                                        
                                         component.Disable();
                                     }
 
@@ -281,7 +282,7 @@ namespace Model
 
                         var tempAttr = UIHelper.GetUIBaseDataAttribute(tempType);
 
-                        if (tempAttr.UIViewType == (int)UIViewType.Normal)
+                        if (tempAttr.UIViewType == (int)UIViewType.Normal) 
                         {
                             PopView();
                             tempUIStack.Push(tempType);
@@ -321,7 +322,7 @@ namespace Model
 
                                 while (tempUIStack.Count > 0)
                                 {
-                                    PushView(tempUIStack.Pop());
+                                    PushView(tempUIStack.Pop()); //重新放上原来在A上的pop页面
                                 }
 
                                 break;
@@ -348,7 +349,7 @@ namespace Model
                     }
                     else
                     {
-                        //关闭旧的界面A和旧的界面A与即将打开的新的界面A之间的pop界面
+                        //关闭旧的界面A和旧的界面A与即将打开的新的界面A之间的pop界面 
                         while (true)
                         {
                             var tempType = _uiStack.Peek();
@@ -416,15 +417,15 @@ namespace Model
                         var tempType = _uiStack.Peek();
                         var tempAttr = UIHelper.GetUIBaseDataAttribute(tempType);
 
-                        if (tempAttr.UIViewType == (int)UIViewType.Normal)
+                        if (tempAttr.UIViewType == (int)UIViewType.Normal)  //2个tempType 这里设计应该是互斥的，g
                         {
                             UIBaseComponent component = _uiComponentDic[tempType];
 
-                            if (isOpen && component.IsEnable)
+                            if (isOpen && component.IsEnable)     //关闭上一个normal界面
                             {
                                 component.Disable();
                             }
-                            else if (!(isOpen && component.IsEnable))
+                            else if (!(isOpen && component.IsEnable)) //这部分有点不太理解，  为什么要执行Enable呢，还没完全走完打开逻辑吗？
                             {
                                 component.Enable();
                             }

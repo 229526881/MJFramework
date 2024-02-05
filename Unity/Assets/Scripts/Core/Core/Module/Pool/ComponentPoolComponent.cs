@@ -8,7 +8,7 @@ namespace Model
     [LifeCycle]
     public class ComponentPoolComponent : Component, IAwake, ILateUpdateSystem
     {
-        private Dictionary<Type, Queue<Component>> componentDic;
+        private Dictionary<Type, Queue<Component>> componentDic; //空闲的component队列
         private List<Component>                    components;
 
         private StaticLinkedListDictionary<Type, TwoStaticLinkedList<Component>> hatchDic;

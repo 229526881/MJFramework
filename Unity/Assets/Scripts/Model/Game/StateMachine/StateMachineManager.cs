@@ -120,7 +120,7 @@ namespace Model
 
                     _curState?.Exit();
                     //_isExecute = true;
-                    _curState = state;
+                    _curState = state;           
                     _curState.Enter(index);
                 }
 

@@ -184,7 +184,7 @@ namespace NPBehave
             // Assert.AreNotEqual(this.currentState, State.INACTIVE, "The Node " + this + " called 'Stopped' while in state INACTIVE, something is wrong! PATH: " + GetPath());
             Assert.AreNotEqual(this.currentState, State.INACTIVE, "Called 'Stopped' while in state INACTIVE, something is wrong!");
             this.currentState = State.INACTIVE;
-#if UNITY_EDITOR
+#if UNITY_EDITOR 
             RootNode.TotalNumStoppedCalls++;
             this.DebugNumStoppedCalls++;
             this.DebugLastStoppedAt = UnityEngine.Time.time;

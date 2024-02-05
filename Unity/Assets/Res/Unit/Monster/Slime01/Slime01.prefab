@@ -59,7 +59,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &578286536
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +353,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4792578f693c06841a5b299345830d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 0
   _animationData:
     _animatedParameters:
@@ -481,11 +490,10 @@ MonoBehaviour:
   _defaultWrapMode: 1
   _defaultStopMode: 0
   _playbackSpeed: 1
-  _playOnStart: 0
   _explicitActiveLayers: 0
   _activeLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8421175
   groups:
   - {fileID: 1330435481}
   - {fileID: 199338133}
@@ -587,7 +595,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &246151849221388291
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +645,6 @@ MonoBehaviour:
   _defaultWrapMode: 1
   _defaultStopMode: 0
   _playbackSpeed: 1
-  _playOnStart: 0
   _explicitActiveLayers: 0
   _activeLayers:
     serializedVersion: 2
@@ -709,7 +716,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &860458695777697198
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,7 +774,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &914270062757463082
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,6 +1005,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95790996a919c894cb60f102dfada79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 1.2333333
   _animationData:
     _animatedParameters: []
@@ -1062,7 +1078,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &1296533993997206393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1136,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &1318182024990766739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1455,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4792578f693c06841a5b299345830d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 0
   _animationData:
     _animatedParameters:
@@ -1693,15 +1718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aef99cb11169654db9b317fa6a17070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   IdleClips:
   - Clip: {fileID: 7400004, guid: 74aee2c95d1fec546a53809e4212e8c2, type: 2}
     Cutscene: {fileID: 1674305142}
@@ -2209,7 +2225,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &3978977361951366417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,6 +2370,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4792578f693c06841a5b299345830d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 0
   _animationData:
     _animatedParameters:
@@ -2441,7 +2466,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &4177692281326627350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2532,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95790996a919c894cb60f102dfada79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 1.2333333
   _animationData:
     _animatedParameters: []
@@ -2906,7 +2940,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &4459633429538064407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,7 +3082,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &4969754634737355965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3108,7 +3142,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &5101126294424152808
 GameObject:
   m_ObjectHideFlags: 0
@@ -3180,15 +3214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe233bca0142a14c97784ea3367b6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   Type: 0
   Handle: {fileID: 4459326697082183557}
 --- !u!1 &5191307002386561540
@@ -3410,15 +3435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe233bca0142a14c97784ea3367b6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   Type: 2
   Handle: {fileID: 4459326697082183557}
 --- !u!1 &5452457646241274881
@@ -3478,7 +3494,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &5557437124330737098
 GameObject:
   m_ObjectHideFlags: 0
@@ -3653,7 +3669,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &5876804974664247556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3711,7 +3727,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &5949720866643906667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,6 +3793,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95790996a919c894cb60f102dfada79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 2.2333333
   _animationData:
     _animatedParameters: []
@@ -3884,6 +3909,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95790996a919c894cb60f102dfada79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 2.9833336
   _animationData:
     _animatedParameters: []
@@ -4065,7 +4099,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &6914174469612866236
 GameObject:
   m_ObjectHideFlags: 0
@@ -4115,7 +4149,6 @@ MonoBehaviour:
   _defaultWrapMode: 0
   _defaultStopMode: 0
   _playbackSpeed: 1
-  _playOnStart: 0
   _explicitActiveLayers: 0
   _activeLayers:
     serializedVersion: 2
@@ -4178,7 +4211,6 @@ MonoBehaviour:
   _defaultWrapMode: 1
   _defaultStopMode: 0
   _playbackSpeed: 1
-  _playOnStart: 0
   _explicitActiveLayers: 0
   _activeLayers:
     serializedVersion: 2
@@ -4284,15 +4316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe233bca0142a14c97784ea3367b6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   Type: 1
   Handle: {fileID: 4459326697082183557}
 --- !u!1 &7346797937652354406
@@ -4461,19 +4484,18 @@ MonoBehaviour:
   _defaultWrapMode: 1
   _defaultStopMode: 0
   _playbackSpeed: 1
-  _playOnStart: 0
   _explicitActiveLayers: 0
   _activeLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8421175
   groups:
   - {fileID: 7930047620813085678}
   - {fileID: 6904849241839515246}
   - {fileID: 3685846925305077063}
   - {fileID: 8903421999255406782}
   _length: 1.25
-  _viewTimeMin: 0.76725507
-  _viewTimeMax: 1.4616797
+  _viewTimeMin: 0.7078102
+  _viewTimeMax: 1.7332783
 --- !u!1 &7654069627418379320
 GameObject:
   m_ObjectHideFlags: 0
@@ -4531,7 +4553,7 @@ MonoBehaviour:
   _initialCoordinates: 0
   _initialLocalPosition: {x: 0, y: 0, z: 0}
   _initialLocalRotation: {x: 0, y: 0, z: 0}
-  _keepDisplayVirtualMeshGizmo: 1
+  _displayVirtualMeshGizmo: 1
 --- !u!1 &7845345203043984222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4836,6 +4858,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4792578f693c06841a5b299345830d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 0
   _animationData:
     _animatedParameters:
@@ -5114,6 +5145,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4792578f693c06841a5b299345830d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   _startTime: 0
   _animationData:
     _animatedParameters:

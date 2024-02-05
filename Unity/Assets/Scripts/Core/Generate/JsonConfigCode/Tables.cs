@@ -34,6 +34,7 @@ public sealed partial class Tables
         tables.Add("Monster.TbMonster", TbMonster);
         PostInit();
 
+        
         TbGameConst.Resolve(tables); 
         TbRole.Resolve(tables); 
         TbRoleData.Resolve(tables); 

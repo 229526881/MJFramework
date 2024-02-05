@@ -124,7 +124,7 @@ namespace M.Algorithm
                         }
                         else
                         {
-                            if (cur == 0) //理论上应该没0
+                            if (cur == 0) //一直后移到最后一个位置都没有符合的，直接加在最后面
                             {
                                 var right = list[0].right;
                                 list[0].right = list[right].right;
@@ -140,7 +140,7 @@ namespace M.Algorithm
                                 list[0].right = list[right].right;
                                 list[right].left = list[cur].left;
                                 list[right].right = cur;
-                                list[list[cur].left].right = right;
+                                list[list[cur].left].right = right; //放在复合条件的左边，原来的放右边
                                 list[cur].left = right;
                                 list[right].element = t;
                                 index = right;

@@ -67,7 +67,8 @@ namespace Model
             var handles = new List<OperationHandleBase>();
             var tasks = new List<UniTask>();
 
-            var progress = new Progress<float>(f =>
+            //为了计算所有的加载的平均进度
+            var progress = new Progress<float>(f =>   
             {
                 var score = 0.0f;
 
